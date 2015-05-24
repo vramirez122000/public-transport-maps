@@ -1,0 +1,127 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Subway Map</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="jquery.subwayMap-0.5.0.js"></script>
+    <style type="text/css">
+        body {
+            font-family: Verdana;
+            font-size: 8pt;
+        }
+
+        /* The main DIV for the map */
+        .subway-map {
+            margin: 0;
+            width: 400px;
+            height: 1000px;
+            background-color: white;
+            border: 1px solid black;
+            display: inline-block;
+        }
+
+        /* Text labels */
+        .text {
+            text-decoration: none;
+            color: black;
+            font-size: smaller;
+        }
+
+        #legend {
+            float: right;
+            width: 250px;
+            height: 400px;
+            display: inline-block;
+        }
+
+        #legend div {
+            height: 25px;
+        }
+
+        #legend span {
+            margin: 5px 5px 5px 0;
+        }
+
+        .subway-map span {
+            margin: 5px 5px 5px 0;
+        }
+
+    </style>
+</head>
+<body>
+<h3>Mapa Lógico de la Ruta M3</h3>
+<div class="subway-map" data-columns="10" data-rows="25"
+     data-cellSize="40" data-legendId="legend" data-textClass="text"
+     data-gridNumbers="true" data-grid="true" data-lineWidth="8">
+
+    <ul data-color="#3366FF" data-label="Caño San Antonio">
+        <li data-coords="0,7.5"></li>
+        <li data-coords="10,7.5"></li>
+    </ul>
+
+    <ul data-color="red" data-label="M3 Hacia Sagrado Corazón">
+        <li data-coords="4,1" data-labelPos="W" data-marker="interchange">Terminal San Juan</li>
+        <li data-coords="4,3" data-labelPos="W">Calle Valdés</li>
+        <li data-coords="4,4" data-labelPos="W">Calle Pelayo</li>
+        <li data-coords="4,5" data-labelPos="W">Calle Matías Ledesma</li>
+        <!-- marker-only node -->
+        <li data-coords="4,6" data-labelPos="W">Calle Ramón Power\nParque Muñoz Rivera</li>
+        <li data-coords="4,7" data-labelPos="W">Millenium\nCaribe Hilton</li>
+        <li data-coords="4,8" data-labelPos="W">Miramar Oeste</li>
+        <!-- marker-only node, moved to the right by 0.15 -->
+        <li data-coords="4,9" data-labelPos="W">Miramar Centro</li>
+        <li data-coords="4,10" data-labelPos="W">Miramar Este</li>
+        <li data-coords="4,11" data-labelPos="W">Pda 15\nConservatorio</li>
+        <li data-coords="4,12" data-labelPos="W">Alto del Cabro\nMarshall's</li>
+        <li data-coords="4,13" data-labelPos="W">Pda 17\nCalle Condado</li>
+        <li data-coords="4,14" data-labelPos="W">Pda 18\nMuseo de Arte Contemporaneo</li>
+        <li data-coords="4,15" data-labelPos="W">Pda 19\nPlacita</li>
+        <li data-coords="4,16" data-labelPos="W">Central High School</li>
+        <li data-coords="4,17" data-labelPos="W">Pda 22 Bellas Artes\nCentro Europa</li>
+        <li data-coords="4,18" data-labelPos="W">Pda 22 Banco Popular\nCiudadela</li>
+        <li data-coords="4,19" data-labelPos="W">Pda 23\nCobian's Plaza</li>
+        <li data-coords="4,20" data-labelPos="W">Calle San Jorge</li>
+        <li data-coords="4,21" data-labelPos="W">Immaculada</li>
+        <li data-coords="4,23" data-labelPos="W">Univ. Sagrado Corazón</li>
+        <li data-coords="4,24" data-labelPos="W" data-marker="interchange">Estación Sagrado Corazón</li>
+    </ul>
+
+    <ul data-color="green" data-label="M3 Hacia San Juan">
+        <li data-coords="5,1" data-labelPos="E" data-marker="interchange">Terminal San Juan</li>
+        <li data-coords="5,2" data-labelPos="E">Capitolio</li>
+        <li data-coords="5,3" data-labelPos="E">Calle Valdés</li>
+        <li data-coords="5,4" data-labelPos="E">Calle Pelayo</li>
+        <li data-coords="5,5" data-labelPos="E">Calle Matías Ledesma</li>
+        <!-- marker-only node -->
+        <li data-coords="5,6" data-labelPos="E">Calle Ramón Power\nParque Muñoz Rivera</li>
+        <li data-coords="5,7" data-labelPos="E">Millenium\nCaribe Hilton</li>
+        <li data-coords="5,8" data-labelPos="E">Miramar Oeste</li>
+        <!-- marker-only node, moved to the right by 0.15 -->
+        <li data-coords="5,9" data-labelPos="E">Miramar Centro</li>
+        <li data-coords="5,10" data-labelPos="E">Miramar Este</li>
+        <li data-coords="5,11" data-labelPos="E">Pda 15\nConservatorio</li>
+        <li data-coords="5,12" data-labelPos="E">Alto del Cabro\nMarshall's</li>
+        <li data-coords="5,13" data-labelPos="E">Parada 17\nCalle Condado</li>
+        <li data-coords="5,14" data-labelPos="E">Parada 18\nMuseo de Arte Contemporaneo</li>
+        <li data-coords="5,15" data-labelPos="E">Parada 19\nPlacita</li>
+        <li data-coords="5,16" data-labelPos="E">Central High School</li>
+        <li data-coords="5,17" data-labelPos="E">Parada 22 Bellas Artes\nCentro Europa</li>
+        <li data-coords="5,18" data-labelPos="E">Parada 22 Banco Popular\nCiudadela</li>
+        <li data-coords="5,19" data-labelPos="E">Parada 23\nCobian's Plaza</li>
+        <li data-coords="5,20" data-labelPos="E">Calle San Jorge</li>
+        <li data-coords="5,21" data-labelPos="E">Immaculada</li>
+        <li data-coords="5,22" data-labelPos="E">Santurce Medical Mall</li>
+        <li data-coords="5,23" data-labelPos="E">Univ. Sagrado Corazón</li>
+        <li data-coords="5,24" data-labelPos="E" data-marker="interchange">Estación Sagrado Corazón</li>
+    </ul>
+
+
+
+</div>
+<div id="legend"></div>
+
+<script type="text/javascript">
+    $(".subway-map").subwayMap({debug: true});
+</script>
+</body>
+</html>
