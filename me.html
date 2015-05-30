@@ -1,0 +1,89 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Mapa Lógico de la Ruta M3</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="jquery.subwayMap-0.5.0.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<p>Tren Urbano App presenta</p>
+
+<h2>Mapa de la ruta Metrobús ME</h2>
+
+<table style="margin: auto">
+    <tr>
+        <td>
+
+            <div class="subway-map" data-columns="10" data-rows="26"
+                 data-cellSize="40" data-legendId="legend" data-textClass="text"
+                 data-lineWidth="8">
+
+                <ul data-color="#4499FF" data-label="Caño San Antonio">
+                    <li data-coords="0,8.5"></li>
+                    <li data-coords="10,8.5"></li>
+                </ul>
+
+                <ul data-color="red" data-label="M3 Hacia Sagrado Corazón">
+                    <li data-coords="4,1" data-labelPos="W" data-marker="interchange">Terminal San Juan</li>
+                    <li data-coords="4,3" data-labelPos="W">Calle Valdés</li>
+                    <li data-coords="4,4" data-labelPos="W">Calle Pelayo</li>
+                    <li data-coords="4,5" data-labelPos="W">Calle Matías Ledesma</li>
+                    <li data-coords="4,6" data-labelPos="W">Calle Ramón Power\nParque Muñoz Rivera</li>
+                    <li data-coords="4,7" data-labelPos="W">Calle 5</li>
+                    <li data-coords="4,8" data-labelPos="W">Millenium\nCaribe Hilton</li>
+                    <li data-coords="4,9" data-labelPos="W">San Juan Bay Marina</li>
+                    <li data-coords="4,10" data-labelPos="W">Hyatt House</li>
+                    <li data-coords="4,11" data-labelPos="W">&nbsp;</li>
+                    <li data-coords="4,12" data-labelPos="W">Centro Convenciones Este</li>
+                    <li data-coords="4,13" data-labelPos="W">Centro Convenciones</li>
+                    <li data-coords="4,14" data-labelPos="W">Sheraton Convenciones</li>
+                    <li data-coords="4,15" data-labelPos="W">Calle Refugio</li>
+                    <li data-coords="4,25" data-labelPos="W" data-marker="interchange">Estación Sagrado Corazón</li>
+                </ul>
+
+                <ul data-color="green" data-label="M3 Hacia San Juan">
+                    <li data-coords="4.5,1" data-labelPos="E" data-marker="interchange">Terminal San Juan</li>
+                    <li data-coords="4.5,2" data-labelPos="E">Capitolio</li>
+                    <li data-coords="4.5,3" data-labelPos="E">Calle Valdés</li>
+                    <li data-coords="4.5,4" data-labelPos="E">Calle Pelayo</li>
+                    <li data-coords="4.5,5" data-labelPos="E">Calle Matías Ledesma</li>
+                    <li data-coords="4.5,6" data-labelPos="E">Calle Ramón Power\nParque Muñoz Rivera</li>
+                    <li data-coords="4.5,7" data-labelPos="E">Calle 5</li>
+                    <li data-coords="4.5,8" data-labelPos="E">Millenium\nCaribe Hilton</li>
+                    <li data-coords="4.5,9" data-labelPos="E">San Juan Bay Marina</li>
+                    <li data-coords="4.5,10" data-labelPos="E">Hyatt House</li>
+                    <li data-coords="4.5,11" data-labelPos="E">Sheraton Convenciones</li>
+                    <li data-coords="4.5,12" data-labelPos="E">Convenciones</li>
+                    <li data-coords="4.5,13" data-labelPos="E">Convenciones Este</li>
+                    <li data-coords="4.5,14" data-labelPos="E">&nbsp;</li>
+                    <li data-coords="4.5,15" data-labelPos="E">Fdez Juncos\nEsq. Miramar</li>
+                    <li data-coords="4.5,16" data-labelPos="E">Fdez Juncos\nEsq. La Paz</li>
+                    <li data-coords="4.5,17" data-labelPos="E">Calle Hoare\nEscuela Rafael Cordero</li>
+                    <li data-coords="4.5,25" data-labelPos="E" data-marker="interchange">Estación Sagrado Corazón</li>
+                </ul>
+            </div>
+        </td>
+        <td>
+            <ul style="list-style: none">
+                <li>Horario: Lunes a Domingo 5:00 AM - 12:00 AM<br/></li>
+                <li>Tarifa: $0.75</li>
+                <li>Frecuencia:
+                    <ul>
+                        <li>Día Laborable 5:00 AM - 9:00 AM: 7 Minutos</li>
+                        <li>Día Laborable 9:00 AM - 12:00 AM: 10 Minutos</li>
+                        <li>Día No Laborable 5:00 AM - 12:00 AM: 15 Minutos</li>
+                    </ul>
+                </li>
+            </ul>
+            <div id="legend"></div>
+
+        </td>
+    </tr>
+</table>
+
+<script type="text/javascript">
+    $(".subway-map").subwayMap({debug: true});
+</script>
+</body>
+</html>
