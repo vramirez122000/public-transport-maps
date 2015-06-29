@@ -35,11 +35,11 @@
      inkscape:window-width="1839"
      units="in"
      showgrid="true"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer7"
      inkscape:document-units="px"
-     inkscape:cy="269.86868"
-     inkscape:cx="541.07291"
-     inkscape:zoom="0.50005708"
+     inkscape:cy="599.90779"
+     inkscape:cx="346.28821"
+     inkscape:zoom="1.0001142"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
      borderopacity="1.0"
@@ -1491,6 +1491,13 @@
      inkscape:label="Leyenda"
      id="layer7"
      inkscape:groupmode="layer">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4460"
+       width="990"
+       height="140"
+       x="0"
+       y="0" />
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
