@@ -35,11 +35,11 @@
      inkscape:window-width="1839"
      units="in"
      showgrid="true"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="g21265"
      inkscape:document-units="px"
-     inkscape:cy="520.32335"
-     inkscape:cx="535.51403"
-     inkscape:zoom="0.7071875"
+     inkscape:cy="135.55246"
+     inkscape:cx="-213.19323"
+     inkscape:zoom="0.50005708"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
      borderopacity="1.0"
@@ -132,9 +132,9 @@
      style="display:inline"
      sodipodi:insensitive="true">
     <rect
-       y="145"
+       y="140"
        x="0"
-       height="460"
+       height="465"
        width="990"
        id="rect4773"
        style="fill:#00ccff;fill-opacity:1;stroke:none;stroke-width:3.97994971;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
@@ -223,7 +223,7 @@
        sodipodi:nodetypes="cccccccccccccc"
        inkscape:connector-curvature="0"
        id="path-tren-urbano"
-       d="m 517.32284,707.16535 -24.31091,24.3109 C 491,733.3622 489,737.3622 488.97638,740.2951 l 0.0214,66.11763 C 489,811.3622 491,815.3622 493.80026,818.71634 l 16.96817,18.92604 C 513,840.3622 515,844.3622 515,848.39684 l 0,122.00556 c -0.40261,6.39901 -1,7.9598 -5,11.9598 l -25,21 c -3,2 -7.98238,4 -11,4 l -397,0 c -5,0 -12,-6.6273 -12,-12 l 0,-33"
+       d="m 517.32284,707.16535 -24.31091,24.3109 C 491,733.3622 489,737.3622 488.97638,740.2951 l 0.0214,66.11763 C 489,811.3622 491,815.3622 493.80026,818.71634 l 16.96817,18.92604 C 513,840.3622 515,844.3622 515,848.39684 l 0,124.96536 c 0,4 -2,8 -6,12 l -20,18 c -4,3 -8.02365,4.0414 -12,4 l -400,0 c -5,0 -12,-6.6273 -12,-12 l 0,-33"
        style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:8px;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1" />
     <path
        id="path-ama9"
@@ -1573,11 +1573,52 @@
            sodipodi:role="line"
            id="tspan21367"
            x="797.73041"
-           y="240.38681">Cada 10 min, 7 min pico</tspan><tspan
+           y="240.38681">Cada 10 min, 6 min pico</tspan><tspan
            sodipodi:role="line"
            id="tspan21369"
            x="797.73041"
            y="252.88681">25-30 min de viaje</tspan></text>
+      <g
+         id="g21493"
+         transform="translate(855,10)">
+        <g
+           transform="translate(-185,27)"
+           id="g21484">
+          <path
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 788.18271,695.68075 0,-23"
+             id="path21468"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cc" />
+          <path
+             style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="m 778.18271,682.68075 10,-10 10,10"
+             id="path21470"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccc" />
+        </g>
+        <g
+           transform="translate(-182,11)"
+           id="g21488">
+          <circle
+             style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="path21476"
+             cx="784.99445"
+             cy="727.3158"
+             r="15" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:27.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="775.17792"
+             y="736.99799"
+             id="text21472"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan21474"
+               x="775.17792"
+               y="736.99799">N</tspan></text>
+        </g>
+      </g>
     </g>
     <g
        id="g21275"
