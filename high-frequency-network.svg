@@ -35,10 +35,10 @@
      inkscape:window-width="1839"
      units="in"
      showgrid="true"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer3"
      inkscape:document-units="px"
-     inkscape:cy="532.94981"
-     inkscape:cx="589.99553"
+     inkscape:cy="563.56037"
+     inkscape:cx="160.16269"
      inkscape:zoom="2.0002284"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
@@ -185,7 +185,8 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="Dotaciones"
-     style="display:inline;opacity:0.98000004">
+     style="display:inline;opacity:0.98000004"
+     sodipodi:insensitive="true">
     <rect
        style="opacity:1;fill:#b4f2db;fill-opacity:1;stroke:none;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect21248"
@@ -364,8 +365,7 @@
      style="display:inline;opacity:0.92000002"
      inkscape:label="Paradas"
      id="layer3"
-     inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     inkscape:groupmode="layer">
     <circle
        r="5"
        cy="408.38455"
@@ -874,7 +874,6 @@
        style="display:inline;opacity:0.92000002;fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
   <g
-     sodipodi:insensitive="true"
      style="display:inline;opacity:0.98999999"
      inkscape:label="Etiquetas"
      id="layer4"
@@ -1201,7 +1200,7 @@
          y="294.22995"
          x="399.6488"
          id="tspan5401"
-         sodipodi:role="line">Museo de Arte Contemporáneo</tspan></text>
+         sodipodi:role="line">MAC</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5072-4-2-6-3-2-6-9-1"
@@ -1245,7 +1244,7 @@
          y="239.57169"
          x="337.72147"
          id="tspan5312"
-         sodipodi:role="line">Colegio de Abogados</tspan></text>
+         sodipodi:role="line">Abogados</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5072-4-2-6-3-2-6-9-1-1-5-9-6"
@@ -1338,11 +1337,11 @@
        sodipodi:linespacing="125%"
        id="text5072-4-2-6-3-2-6-9-1-1-5-9-6-5-3-6-4-0-1-6"
        y="191.69659"
-       x="212.47466"
+       x="212.4864"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="191.69659"
-         x="212.47466"
+         x="212.4864"
          id="tspan5513"
          sodipodi:role="line">Archivo</tspan></text>
     <text
@@ -1472,13 +1471,13 @@
        sodipodi:linespacing="125%"
        id="text5072-4-2-8-6-5-95-7-8"
        y="518.50403"
-       x="400.74487"
+       x="455.4519"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:0.98999999;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
          y="518.50403"
-         x="400.74487"
+         x="455.4519"
          id="tspan5834"
-         sodipodi:role="line">Calle Eleanor Roosevelt</tspan></text>
+         sodipodi:role="line">Eleanor</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5072-4-2-8-6-5-95-7-8-7"
@@ -1534,12 +1533,24 @@
          x="532.73358"
          id="tspan5898-0"
          sodipodi:role="line">UPR Sociales</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5072-4-2-6-3-2-6-9-1-1-5-9-6-5-3-6-4-0-1-7"
+       y="174.90161"
+       x="269.80539"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="174.90161"
+         x="269.80539"
+         id="tspan5493-4"
+         sodipodi:role="line">Supremo</tspan></text>
   </g>
   <g
      style="display:inline"
      inkscape:label="Leyenda"
      id="layer7"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4460"
