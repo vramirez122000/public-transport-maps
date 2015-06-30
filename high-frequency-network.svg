@@ -35,10 +35,10 @@
      inkscape:window-width="1839"
      units="in"
      showgrid="true"
-     inkscape:current-layer="layer7"
+     inkscape:current-layer="layer8"
      inkscape:document-units="px"
-     inkscape:cy="562.78825"
-     inkscape:cx="745.62912"
+     inkscape:cy="532.94981"
+     inkscape:cx="589.99553"
      inkscape:zoom="2.0002284"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
@@ -185,8 +185,7 @@
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="Dotaciones"
-     style="display:inline;opacity:0.98000004"
-     sodipodi:insensitive="true">
+     style="display:inline;opacity:0.98000004">
     <rect
        style="opacity:1;fill:#b4f2db;fill-opacity:1;stroke:none;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect21248"
@@ -235,10 +234,10 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:#ececec;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 770,280 -25,-21 c -4.96818,-3.9683 -5,-5 -5,-8.0038 L 740,200 l 216,0 0,80 z"
+       d="m 770,280 -25,-21 c -4.96818,-3.9683 -5,-5 -5,-8.0038 L 740,205 c 0,-3 3,-5 5,-5 l 211,0 0,80 z"
        id="path4471"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccc" />
+       sodipodi:nodetypes="cccccccc" />
     <rect
        style="opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect6539"
