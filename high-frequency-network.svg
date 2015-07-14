@@ -35,10 +35,10 @@
      inkscape:window-width="1839"
      units="in"
      showgrid="true"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer4"
      inkscape:document-units="px"
-     inkscape:cy="459.49836"
-     inkscape:cx="450.86373"
+     inkscape:cy="341.48404"
+     inkscape:cx="429.58602"
      inkscape:zoom="1.0001142"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
@@ -53,7 +53,8 @@
        snapvisiblegridlinesonly="true"
        units="px"
        id="grid9710"
-       type="xygrid" />
+       type="xygrid"
+       visible="false" />
   </sodipodi:namedview>
   <title
      id="title3365">Red de transporte público de alta frecuencia</title>
@@ -377,7 +378,8 @@
      style="display:inline;opacity:0.92000002"
      inkscape:label="Paradas"
      id="layer3"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
     <circle
        r="5"
        cy="404.38455"
@@ -1147,7 +1149,7 @@
          y="372.21735"
          x="489.53979"
          id="tspan5172"
-         sodipodi:role="line">Calle San Jorge</tspan></text>
+         sodipodi:role="line">c. San Jorge</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5072-4-2-6"
@@ -1224,7 +1226,7 @@
          y="276.56537"
          x="384.66696"
          id="tspan5552"
-         sodipodi:role="line">Calle Condado</tspan></text>
+         sodipodi:role="line">c. Condado</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5072-4-2-6-3-2-6-9-1-1"
@@ -1312,7 +1314,7 @@
          y="170.90161"
          x="117.55403"
          id="tspan5564"
-         sodipodi:role="line">Calle Valdés</tspan></text>
+         sodipodi:role="line">c. Valdés</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5072-4-2-6-3-2-6-9-1-1-5-9-6-5-3-6"
@@ -1444,7 +1446,7 @@
          y="544.78772"
          x="532.56323"
          id="tspan5906"
-         sodipodi:role="line">Calle Guayama</tspan></text>
+         sodipodi:role="line">c. Guayama</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5072-4-2-8-6-5-9-6-9-3-5"
@@ -1455,7 +1457,7 @@
          y="581.54382"
          x="532.56323"
          id="tspan5754"
-         sodipodi:role="line">Calle Mayagüez</tspan></text>
+         sodipodi:role="line">c. Mayagüez</tspan></text>
     <text
        inkscape:transform-center-y="-0.30217118"
        inkscape:transform-center-x="9.9716488"
@@ -1479,7 +1481,7 @@
          y="476.3772"
          x="433.71851"
          id="tspan5812"
-         sodipodi:role="line">Calle Chardón</tspan></text>
+         sodipodi:role="line">c. Chardón</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5072-4-2-8-6-5-95-7-8"
@@ -1534,7 +1536,7 @@
          y="641.17737"
          x="532.36963"
          id="tspan5926"
-         sodipodi:role="line">Avenida Universidad</tspan></text>
+         sodipodi:role="line">av. Universidad</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text5072-4-2-8-6-5-9-6-9-3-5-7-0"
@@ -1557,6 +1559,17 @@
          x="269.80539"
          id="tspan5493-4"
          sodipodi:role="line">Supremo</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5072-4-2-6-3-2-6-9-1-1-5-9-6-5-3-68"
+       y="227.90495"
+       x="123.97607"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         y="227.90495"
+         x="123.97607"
+         id="tspan5397-7"
+         sodipodi:role="line">Autoridad de Puertos</tspan></text>
   </g>
   <g
      style="display:inline"
