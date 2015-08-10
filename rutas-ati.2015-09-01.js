@@ -35,12 +35,14 @@ var maya = (function () {
     }
 
     function tileLayer() {
-        var url = 'https://{s}.tiles.mapbox.com/v3/vramirez122000.kc4acpgn/{z}/{x}/{y}.png';
+        var url = 'http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png';
         return L.tileLayer(url, {
             minZoom: DEFAULTS.MIN_ZOOM,
             maxZoom: DEFAULTS.MAX_ZOOM,
             maxBounds: DEFAULTS.BOUNDS,
-            attribution: '<a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>'
+            attribution: 'Tiles courtesy of <a href="http://www.mapquest.com/" target="_blank">MapQuest</a>, '
+            + '<a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>',
+            subdomains: ['otile1','otile2','otile3','otile4']
         });
     }
 
