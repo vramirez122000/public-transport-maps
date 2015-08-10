@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Rutas ATI sep-2015</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+
+        html, body, #map {
+            height: 100%;
+        }
+
+        .routeLabel {
+            font-weight: bold;
+            border-radius: 3px;
+            color: white;
+            padding: .1em .3em;
+            border: 1px solid;
+        }
+
+    </style>
+
+</head>
+<body>
+<div style="font-size: large; font-weight: bold; margin: 0.2em 0; width: 100%; text-align: center">
+    Mapa de rutas de la Autoridad de Transporte Integrado a partir de 01-sep-2015
+</div>
+<div id="map" style="width: 100%;"></div>
+</body>
+<script type="text/javascript" src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script type="text/javascript" src="rutas-ati.2015-09-01.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        maya.main();
+    });
+</script>
+</html>
