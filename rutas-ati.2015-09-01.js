@@ -18,7 +18,7 @@ var maya = (function () {
             colors: {},
             routeLayers: {},
             routeGroup: L.featureGroup(),
-            layerControl: L.control.layers(null, {}, {position: 'topleft', collapsed: false}),
+            layerControl: L.control.layers(null, {}, {position: 'topleft', collapsed: true}),
             map: createMap(),
             routes: routes
         };
